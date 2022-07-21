@@ -10,18 +10,23 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {};
-  },
-};
+export default ({
+    data(){
+
+    },
+    methods:{
+        addInfo(){
+
+        }
+    }
+})
 </script>
 
 
 <style scoped>
     .container{
             width: 50%;
-            margin: 3rem auto ;
+            margin: 3rem auto ;            
         }
         .friend-form{
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -29,6 +34,7 @@ export default {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            border-radius: 25px;
         }
         .input-group{
             width: 90%;
